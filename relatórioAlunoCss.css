@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 html,
 body {
@@ -18,23 +16,19 @@ body {
   width: 100vw;
 }
 
-
 html {
   font-size: 62.5%;
 }
 
-
 body {
   font-size: 1.6rem;
 }
-
 
 .container {
   display: flex;
   height: 100vh;
   width: 100vw;
 }
-
 
 .sidebar {
   width: 5vw;
@@ -49,14 +43,12 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
-
 .sidebar ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
-
 
 .sidebar-item {
   width: 100%;
@@ -68,13 +60,11 @@ body {
   position: relative;
 }
 
-
 .menu:hover {
   background-color: rgba(0, 0, 0, 0.08);
   padding-left: 1.5em;
   border-radius: 10px;
 }
-
 
 .menu::before {
   content: "";
@@ -87,11 +77,9 @@ body {
   transition: background-color 0.3s, top 0.3s;
 }
 
-
 .menu:hover::before {
   background-color: #00bfa6;
 }
-
 
 .user-option {
   width: 100%;
@@ -100,15 +88,13 @@ body {
   cursor: pointer;
 }
 
-
 .content {
   flex-grow: 1;
   padding: 20px;
   color: #333;
   height: 100%;
-  background-color: #ececec;
+  background-color: #d0d0d0;
 }
-
 
 .content header {
   display: flex;
@@ -116,8 +102,8 @@ body {
   align-items: center;
   min-height: 9%;
   max-width: 40%;
+  margin-bottom: 25px;
 }
-
 
 .content header h2 {
   min-width: 50%;
@@ -125,14 +111,12 @@ body {
   color: #909090;
 }
 
-
 .interface-design {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 34%;
 }
-
 
 .info {
   width: 80%;
@@ -142,13 +126,11 @@ body {
   gap: 8px;
 }
 
-
 .info h2,
 .info h4 {
   font-family: "Montserrat";
   font-weight: 600;
 }
-
 
 .info p {
   font-family: "Montserrat";
@@ -156,12 +138,10 @@ body {
   font-size: 12px;
 }
 
-
 .info img {
   width: 14px;
   height: 14px;
 }
-
 
 .results {
   display: flex;
@@ -169,7 +149,6 @@ body {
   flex-direction: column;
   height: 40%;
 }
-
 
 .section-list {
   width: 80%;
@@ -180,30 +159,25 @@ body {
   overflow-y: auto;
 }
 
-
 .section-list::-webkit-scrollbar {
   width: 10px;
 }
-
 
 .section-list::-webkit-scrollbar-track {
   background: white;
   border-radius: 30px;
 }
 
-
 .section-list::-webkit-scrollbar-thumb {
   background: #404040;
   border-radius: 30px;
 }
-
 
 .results h4 {
   margin-bottom: 10px;
   font-family: "Sora";
   font-weight: 800;
 }
-
 
 .question-container {
   display: flex;
@@ -216,12 +190,10 @@ body {
   gap: 10px;
 }
 
-
 .checkmark {
   color: white;
   font-size: 20px;
 }
-
 
 .content-container {
   display: flex;
@@ -229,12 +201,10 @@ body {
   gap: 5px;
 }
 
-
 .content-container .question {
   font-family: "Montserrat";
   font-weight: bold;
 }
-
 
 .content-container .answer {
   font-family: "Montserrat";
@@ -242,12 +212,10 @@ body {
   color: #777;
 }
 
-
 .questions-list {
   list-style-type: none;
   padding-left: 0;
 }
-
 
 .questions-list li {
   padding: 10px;
@@ -259,7 +227,6 @@ body {
   color: #333;
 }
 
-
 footer {
   display: flex;
   justify-content: center;
@@ -267,7 +234,6 @@ footer {
   height: 14%;
   text-align: center;
 }
-
 
 .exit-btn {
   padding: 10px 20px;
@@ -281,7 +247,6 @@ footer {
   font-family: "Sora";
   font-weight: 600;
 }
-
 
 .exit-btn:hover {
   background-color: #555;
